@@ -1,0 +1,8 @@
+12:12:18 INFO:table DWH_CUSTOMERS has no column named past_3_years_bike_related_purchases
+12:13:38 INFO:table DWH_CUSTOMERS has no column named past_3_years_bike_related_purchases
+12:14:57 INFO:table DWH_CUSTOMERS has no column named past_3_years_bike_related_purchases
+12:42:18 INFO:table DWH_CUSTOMERS has no column named past_3_years_bike_related_purchases
+12:43:56 INFO:table DWH_CUSTOMERS has no column named past_3_years_bike_related_purchases
+12:50:02 INFO:near "ON": syntax error
+12:50:43 INFO:near "as": syntax error
+12:51:46 INFO:near "AS": syntax error
