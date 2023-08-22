@@ -20,21 +20,20 @@
 13:25:58 INFO:table DWH_CUSTOMERS has no column named past_3_years_bike_related_purchases
 13:26:29 INFO:table DWH_CUSTOMERS has no column named past_3_years_bike_related_purchases
 13:29:31 INFO:no such column: postcode
-14:43:19 INFO:17 values for 16 columns
-14:44:16 INFO:17 values for 16 columns
-15:41:13 INFO:near ")": syntax error
-15:41:58 INFO:near ")": syntax error
-15:42:14 INFO:near ")": syntax error
-15:42:29 INFO:near ")": syntax error
-15:46:09 - [INFO] -  root - (etl_task.py).read_sql_script(54) - near ")": syntax error
-15:58:51 - [INFO] -  root - (etl_task.py).read_sql_script(54) - near "online_order": syntax error
-15:59:22 - [INFO] -  root - (etl_task.py).read_sql_script(54) - near ")": syntax error
-16:00:01 - [INFO] -  root - (etl_task.py).read_sql_script(54) - table DWH_TRANSACTIONS has no column named list_price
-16:00:55 - [INFO] -  root - (etl_task.py).read_sql_script(54) - table DWH_TRANSACTIONS has no column named list_price
-16:02:05 - [INFO] -  root - (etl_task.py).read_sql_script(54) - table DWH_TRANSACTIONS has no column named list_price
-16:03:47 - [INFO] -  root - (etl_task.py).read_sql_script(54) - table DWH_TRANSACTIONS has no column named list_price
-16:04:49 - [INFO] -  root - (etl_task.py).read_sql_script(54) - table DWH_TRANSACTIONS has no column named list_price
-16:05:52 - [INFO] -  root - (etl_task.py).read_sql_script(54) - table DWH_TRANSACTIONS has no column named list_price
-16:06:37 - [INFO] -  root - (etl_task.py).read_sql_script(54) - table DWH_TRANSACTIONS has no column named list_price
-16:10:23 - [INFO] -  root - (etl_task.py).read_sql_script(54) - table DWH_TRANSACTIONS has no column named brand
-16:22:54 - [INFO] -  root - (etl_task.py).read_sql_script(54) - table DWH_TRANSACTIONS has no column named brand
+
+
+17:13:21 - [INFO] -  root - (etl_task.py).read_sql_script(54) - near "create_dt": syntax error
+17:13:21 - [INFO] -  root - (etl_task.py).read_sql_script(54) - no such table: DWH_BRANDS
+17:13:49 - [INFO] -  root - (etl_task.py).read_sql_script(54) - near "create_dt": syntax error
+17:13:49 - [INFO] -  root - (etl_task.py).read_sql_script(54) - no such table: DWH_BRANDS
+17:13:49 - [INFO] -  root - (etl_task.py).read_sql_script(54) - no such table: DWH_BRANDS
+17:20:25 - [INFO] -  root - (etl_task.py).read_sql_script(54) - near "CREATE": syntax error
+17:20:25 - [INFO] -  root - (etl_task.py).read_sql_script(54) - no such table: DWH_TRANSACTIONS
+17:20:46 - [INFO] -  root - (etl_task.py).read_sql_script(54) - near "CREATE": syntax error
+17:20:46 - [INFO] -  root - (etl_task.py).read_sql_script(54) - no such table: DWH_TRANSACTIONS
+17:21:03 - [INFO] -  root - (etl_task.py).read_sql_script(54) - no such column: brand_id
+18:23:25 - [INFO] -  root - (etl_task.py).read_sql_script(55) - near "AS": syntax error
+18:23:40 - [INFO] -  root - (etl_task.py).read_sql_script(55) - near "AS": syntax error
+18:25:35 - [INFO] -  root - (etl_task.py).read_sql_script(55) - near "AS": syntax error
+18:41:39 - [INFO] -  root - (etl_task.py).read_sql_script(55) - near "(": syntax error
+18:42:55 - [INFO] -  root - (etl_task.py).read_sql_script(55) - near "(": syntax error

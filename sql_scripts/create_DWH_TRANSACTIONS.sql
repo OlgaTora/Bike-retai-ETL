@@ -17,7 +17,6 @@ update_dt date,
 
 FOREIGN KEY(customer_id) REFERENCES DWH_CUSTOMERS(customer_id));
 
-
 CREATE TRIGGER if not exists update_trigger_DWH_TRANSACTIONS AFTER UPDATE ON DWH_TRANSACTIONS
  BEGIN
   update DWH_TRANSACTIONS SET update_dt = current_timestamp WHERE transaction_id = NEW.transaction_id;

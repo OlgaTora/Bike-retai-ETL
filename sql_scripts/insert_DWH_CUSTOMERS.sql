@@ -20,7 +20,7 @@ INSERT OR IGNORE INTO DWH_CUSTOMERS(
 SELECT CAST(customer_id AS integer) AS customer_id,
     CAST(postcode AS integer) AS postcode,
 	CAST(past_3_years_bike_related_purchases AS integer) AS past_3_years_bike_related_purchases,
-    CAST(DOB AS date) AS DOB,
+    date(DOB) AS DOB,
 	first_name,
 	last_name,
 	gender,

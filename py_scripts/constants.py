@@ -15,4 +15,3 @@ TABLES = {
 
     'CUSTOMER_DEMOGRAPHIC': {'std': './sql_scripts/create_STG_CUSTOMER_DEMOGRAPHIC.sql'},
 }
-
