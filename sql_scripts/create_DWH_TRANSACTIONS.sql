@@ -5,10 +5,16 @@ customer_id integer,
 transaction_date date,
 online_order varchar(128),
 order_status varchar(128),
+brand varchar(128),
+product_line varchar(128),
+product_class varchar(128),
+product_size varchar(128),
+list_price real,
+standard_cost real,
+product_first_sold_date date,
 create_dt date,
 update_dt date,
 
-FOREIGN KEY(product_id) REFERENCES DWH_PRODUCTS(product_id)
 FOREIGN KEY(customer_id) REFERENCES DWH_CUSTOMERS(customer_id));
 
 
