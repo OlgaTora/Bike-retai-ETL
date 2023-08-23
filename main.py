@@ -42,4 +42,5 @@ if __name__ == "__main__":
     new_files = [x for x in input_files if x + '.dump' not in archive_files]
     for i in new_files:
         run_etl(input_path, i)
-        shutil.copy(f"{input_path}{i}", f"{archive_path}{i}.dump")
+        shutil.copy(f'{input_path}{i}', f'{archive_path}{i}.dump')
+        os.remove(f'{input_path}{i}')
