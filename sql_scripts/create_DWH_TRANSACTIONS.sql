@@ -1,20 +1,16 @@
 CREATE TABLE if not exists DWH_TRANSACTIONS(
 transaction_id integer primary key,
 product_id integer,
+uniq_product_id integer,
 customer_id integer,
 transaction_date date,
 online_order varchar(128),
 order_status varchar(128),
-brand varchar(128),
-product_line varchar(128),
-product_class varchar(128),
-product_size varchar(128),
-list_price real,
-standard_cost real,
 product_first_sold_date date,
 create_dt date,
 update_dt date,
 
+FOREIGN KEY(uniq_product_id) REFERENCES DWH_PRODUCTS(uniq_product_id),
 FOREIGN KEY(customer_id) REFERENCES DWH_CUSTOMERS(customer_id));
 
 CREATE TRIGGER if not exists update_trigger_DWH_TRANSACTIONS AFTER UPDATE ON DWH_TRANSACTIONS

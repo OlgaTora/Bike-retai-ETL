@@ -37,3 +37,9 @@
 18:25:35 - [INFO] -  root - (etl_task.py).read_sql_script(55) - near "AS": syntax error
 18:41:39 - [INFO] -  root - (etl_task.py).read_sql_script(55) - near "(": syntax error
 18:42:55 - [INFO] -  root - (etl_task.py).read_sql_script(55) - near "(": syntax error
+10:48:07 - [INFO] -  root - (etl_task.py).read_sql_script(59) - near "REFERENCES": syntax error
+10:48:07 - [INFO] -  root - (etl_task.py).read_sql_script(59) - table DWH_TRANSACTIONS has no column named uniq_product_id
+10:48:50 - [INFO] -  root - (etl_task.py).read_sql_script(59) - near "FOREIGN": syntax error
+10:48:50 - [INFO] -  root - (etl_task.py).read_sql_script(59) - table DWH_TRANSACTIONS has no column named uniq_product_id
+10:49:04 - [INFO] -  root - (etl_task.py).read_sql_script(59) - table DWH_TRANSACTIONS has no column named uniq_product_id
+12:03:33 - [INFO] -  root - (etl_task.py).read_sql_script(59) - RIGHT and FULL OUTER JOINs are not currently supported
